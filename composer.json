@@ -1,0 +1,43 @@
+{
+  "name": "joydeep-bhowmik/laravel-point-vault",
+  "description": "A laravel point management system.",
+  "type": "library",
+  "version": "v1.0.0",
+  "license": "MIT",
+  "keywords": [
+    "laravel",
+    "laravel point management system",
+    "laravel point vault"
+  ],
+  "require": {
+    "laravel/framework": "^11.9",
+    "kreait/firebase-php": "^6.0",
+    "livewire/volt": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "JoydeepBhowmik\\LaravelPointVault\\": "src/",
+      "JoydeepBhowmik\\LaravelPointVault\\Tests\\": "tests"
+    }
+  },
+  "authors": [
+    {
+      "name": "joydeep-bhowmik",
+      "email": "bhowmikj9432@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "require-dev": {
+    "orchestra/testbench": "^9.4",
+    "pestphp/pest": "^3.2",
+    "pestphp/pest-plugin-laravel": "^3.0",
+    "illuminate/database": "*",
+    "fakerphp/faker": "^1.23"
+  },
+  "config": {
+    "allow-plugins": {
+      "pestphp/pest-plugin": true
+    }
+  }
+}
