@@ -1,6 +1,6 @@
 {
   "name": "joydeep-bhowmik/laravel-point-vault",
-  "description": "A laravel point management system.",
+  "description": "A Laravel point management system to manage point transactions within Eloquent models",
   "type": "library",
   "version": "v1.0.0",
   "license": "MIT",
@@ -10,9 +10,8 @@
     "laravel point vault"
   ],
   "require": {
-    "laravel/framework": "^11.9",
-    "kreait/firebase-php": "^6.0",
-    "livewire/volt": "^1.0"
+    "php": "^8.0",
+    "laravel/framework": "^8.0"
   },
   "autoload": {
     "psr-4": {
