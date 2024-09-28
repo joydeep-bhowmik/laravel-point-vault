@@ -1,5 +1,3 @@
----
-
 # Laravel Point Vault Documentation
 
 ## Introduction
